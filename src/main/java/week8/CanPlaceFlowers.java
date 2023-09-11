@@ -39,7 +39,7 @@ public class CanPlaceFlowers {
         boolean actual = canPlaceFlowers(flowerbed, n);
         Assert.assertTrue(actual);
     }
-    /*@Test
+    @Test
     public void test2(){
 
         int[] flowerbed = {0,0,1};
@@ -70,7 +70,7 @@ public class CanPlaceFlowers {
         int n=2;
         boolean actual = canPlaceFlowers(flowerbed, n);
         Assert.assertTrue(actual);
-    }*/
+    }
 
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
 
